@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo de unicornios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Fira+Sans+Condensed:wght@100&family=Indie+Flower&family=Lobster&family=Patrick+Hand&family=Teko:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <header> 
+            <h1>Bienvenid@ al MUNDO DE LOS UNICORNIOS</h1>
+        </header>
+        <div class="formularios">
+            <section class="form_in">
+                <h2>Crea tu unicornio</h2>
+                <form>
+                    <div class="input">
+                        <label for="nombre-crear">Nombre: </label> <br>
+                        <input type="text" id="nombre-crear">
+                    </div>
+                    <div class="input">
+                        <label for="poder-crear">Poder: </label> <br>
+                        <input type="text" id="poder-crear">
+                    </div>
+                    <div class="input">
+                        <label for="foto-crear">Foto: </label> <br>
+                        <input type="text" id="foto-crear">
+                    </div>
+                    <div class="input">
+                        <label for="edad-crear">Edad: </label> <br>
+                        <input type="text" id="edad-crear">
+                    </div>
+                    <button type="button" id="crear" class="btn-form">Crear</button>
+                </form>
+            </section>
+            <section class="form_in">
+                <h2>Modifica tu unicornio</h2>
+                <h4>Para modificar un unicornio, primero debes seleccionarlo :)</h4>
+                <form>
+                    <div class="input">
+                        <label for="nombre-cambiar">Nombre: </label> <br>
+                        <input type="text" id="nombre-cambiar">
+                    </div>
+                    <div class="input">
+                        <label for="poder-cambiar">Poder: </label> <br>
+                        <input type="text" id="poder-cambiar">
+                    </div>
+                    <div class="input">
+                        <label for="foto-cambiar">Foto: </label> <br>
+                        <input type="text" id="foto-cambiar">
+                    </div>
+                    <div class="input">
+                        <label for="edad-cambiar">Edad: </label> <br>
+                        <input type="text" id="edad-cambiar">
+                    </div>
+                    <button type="button" id="cambiar" class="btn-form">Modificar</button>
+                </form>
+            </section>
+        </div>
+        <section class="cont_total">
+            <h2 class="establo">Unicornios disponibles</h2>
+            <div id="contenedor">
+            <!--   
+                <div>
+                    <img src="##" alt="" style="width: 200px; height: 200px;">
+                    <h4>Nombre del unicornio</h4>
+                    <h4>Poder</h4>
+                    <h4>Edad</h4>
+                </div>
+            -->     
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
